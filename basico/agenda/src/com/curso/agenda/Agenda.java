@@ -8,6 +8,10 @@ import java.util.Scanner;
 
 import java.util.StringTokenizer;
 
+/**
+ * @author ropherpanama
+ * Programa basico para mostrar aspectos generales de Java
+ */
 public class Agenda {
 
 	List<String> contacts = new ArrayList<String>();
