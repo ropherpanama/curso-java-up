@@ -27,6 +27,7 @@ public class Agenda {
 			System.out.println("3. Eliminar contacto");
 			System.out.println("4. Buscar contacto");
 			System.out.println("5. Actualizar contacto");
+			System.out.println("6. Salir");
 			System.out.print("\nSeleccione una opcion: ");
 
 			int opc = scanner.nextInt();
@@ -47,7 +48,12 @@ public class Agenda {
 				break;
 			case 5:
 				agenda.updateContact();
+			case 6:
+				System.out.println("I'll be back ...");
+				System.exit(0);
+				break;
 			default:
+				System.out.println("Opcion incorrecta, seleccione una opcion del listado.");
 				break;
 			}
 		}
