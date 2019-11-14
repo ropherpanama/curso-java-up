@@ -66,9 +66,11 @@ public class AgendaTelefonica implements Agenda {
 	public Contact findById(int id) {
 		try {
 			return contacts.get(id);
-		} catch (Exception e) {
-			return null;
+		} catch(Exception e) {
+			System.out.println("No controlo este error!");
 		}
+		
+		return null;
 	}
 
 	public List<Contact> getContacts() {
