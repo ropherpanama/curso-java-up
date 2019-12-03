@@ -9,10 +9,10 @@
 		<version>2.2.1.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.curso.agenda</groupId>
-	<artifactId>com.curso.agenda</artifactId>
+	<groupId>agenda-rest-api</groupId>
+	<artifactId>agenda-rest-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>com.curso.agenda</name>
+	<name>agenda-rest-api</name>
 	<description>API Agenda REST</description>
 
 	<properties>
