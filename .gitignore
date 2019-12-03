@@ -13,3 +13,5 @@
 # Folders
 **/**/.settings
 **/**/bin
+**/**/.mvn
+**/**/target
